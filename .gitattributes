@@ -1,3 +1,4 @@
 *.sql linguist-detectable=true
+zillow_pipeline/models/**/*.sql linguist-detectable=true
 *.sql linguist-language=sql
 *.sql text

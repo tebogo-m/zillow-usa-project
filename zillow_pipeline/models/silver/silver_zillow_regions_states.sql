@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f90560925047df035e82e67ba811d01142bf9c6392933a5559a18fb294feeac0
-size 387
+-- model filters all region data (state, counties, metros, cities, zip codes) to only provide the rows that contain 'state' information
+-- 'region_id's' for each state will be used in downstream models when joining models/tables (region_id is a primary key/foreign key)
+
+SELECT
+    region_id,
+    region_info AS state
+FROM {{ref ('bronze_zillow_regions') }}
+WHERE region_type = 'state'
+

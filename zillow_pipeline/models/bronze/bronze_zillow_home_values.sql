@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6b12f59048e5446d08b112e097e447a74d92153b8c4690462bd6509a2c647259
-size 371
+-- model extracting data from 'zillow_home_values' table , specified in zillow_sources.yml file, to create a 1:1 relationship with the raw dataset 
+-- value column aliased as home_value to improve readability and clarity in downstream models
+SELECT
+    indicator_id,
+    region_id,
+    date,
+    value AS home_value
+FROM 
+    {{ source ('bronze', 'zillow_home_values') }}

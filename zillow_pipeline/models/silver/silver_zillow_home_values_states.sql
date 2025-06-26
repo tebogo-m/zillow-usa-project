@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ef83e9f8355536091a8eb4629ac3f9ab9a2862e96e32b49abc3428d8fba6a495
-size 625
+-- model joins upstream tables for home values and states using region_id's
+-- the data is then ordered by indicator_id in descending order (eg Z4BR. Z3BR, Z2BR, Z1BR)
+-- this is done in order to be able to obtain home values in each state throughout the years available in the dataset
+
+SELECT 
+    states.region_id,
+    home_values.indicator_id,
+    states.state,
+    home_values.date,
+    home_values.home_value
+FROM
+    {{ref('silver_zillow_home_values')}} AS home_values
+JOIN
+    {{ref('silver_zillow_regions_states')}} AS states
+ON
+    home_values.region_id = states.region_id
+ORDER BY 
+    home_values.indicator_id DESC

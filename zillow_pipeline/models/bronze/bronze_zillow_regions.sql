@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:373ac7f972ccb784b3d013f0ba64adb3c98ec1dcc662e3929aa7cbeedf0367de
-size 360
+-- model extracting data from 'zillow_regions' table, specified in zillow_sources.yml file, to create a 1:1 relationship with the raw dataset 
+-- 'region' column aliased as 'region_info' to improve readability and clarity in downstream models
+
+SELECT 
+    region_id,
+    region_type,
+    region AS region_info
+FROM
+    {{ source ('bronze', 'zillow_regions') }}

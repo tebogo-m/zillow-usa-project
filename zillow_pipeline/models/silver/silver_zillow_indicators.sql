@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9fcf4ada8a5e9c56b92f903ff43c93b279cfaed6ef4e4f94de0cfa97c85ec972
-size 309
+-- model filters for the indicator id's that follow the Z_BR format
+-- this model is used to obtain a view of all relevant indicator ids which will potentially be used throughout the project
+SELECT
+    indicator_id,
+    indicator_name
+FROM {{ref ('bronze_zillow_indicators')}}
+WHERE indicator_id LIKE  'Z%BR' 

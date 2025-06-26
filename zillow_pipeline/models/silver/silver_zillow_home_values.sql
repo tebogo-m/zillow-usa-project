@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:227627829e8a7a74adb9a7df876fc2b84b89509b39c5fc56be22f4d9c8ede453
-size 365
+-- model selecting all rows where indicator id's match the 'Z_BR' format
+-- 'Z_BR' indicators will allow for the segmentation of the data by bedroom numbers (eg. Z1BR = 1 bedroom) in downstream models
+
+SELECT
+    indicator_id,
+    region_id,
+    date,
+    home_value
+FROM 
+    {{ref('bronze_zillow_home_values') }} as home_values
+WHERE
+    indicator_id LIKE 'Z%BR'

@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:92c952bcc454c71fbd54c490891534d6ad8e0d762073d28d0ff8abfbf5286d4b
-size 196
+version: 2
+
+sources:
+ - name: bronze
+   database: zillow_dbt_project_db
+   schema: dbt_schema
+
+   tables:
+     - name: zillow_home_values
+     - name: zillow_regions
+     - name: zillow_indicators

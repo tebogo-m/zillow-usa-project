@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:62b58fad5e91c60096421d2beeb93a461d1b918c26433c5e56870fbc296faf7c
-size 95
+recession_start,recession_end
+2001-03-01,2001-11-01
+2007-12-01,2009-06-01
+2020-02-01,2020-04-01

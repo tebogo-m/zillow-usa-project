@@ -3,7 +3,7 @@
 ![Image alt](https://github.com/tebogo-m/zillow-usa-project/blob/main/images/diagrams/V5_Achictecture_Diagram.drawio.png)
 
 ### Background and Overview:
-This Exploratory Data Analysis set out to explore ***how home values for 1-bedroom homes in the USA have changed*** over the years spanning ***1996-2024.*** Throughout the analysis process, trends emerged, largely linked to major economic events within the USA. This prompted further exploration of the dataset, focused on these major economic events, with an emphasis on the ***housing market crash of 2007-2009.***
+This Exploratory Data Analysis set out to explore ***how home values for 1-bedroom homes in the USA have changed*** over the years spanning ***1996-2025.*** Throughout the analysis process, trends emerged, largely linked to major economic events within the USA. This prompted further exploration of the dataset, focused on these major economic events, with an emphasis on the ***housing market crash of 2007-2009.***
 
 #### Insights are provided in the following areas:
 - ***Home Value Trend Analysis:*** Analysis of the historical home values for 1-bedroom homes in the USA
@@ -38,7 +38,7 @@ Below is the resultant ***dbt lineage*** which outlines the ***data models*** cr
 
 While the housing market crash primarily occurred between 2007 and 2009, its long-term effects persist, evident almost two decades later. Some of the most severely impacted U.S. states experienced dramatic declines, with typical 1-bedroom home values plummeting by up to 70% between 2007 and 2012. Interestingly, the COVID-19 pandemic significantly accelerated the nominal value recovery for these homes across the USA. However, a complete inflation-adjusted recovery for home values remains unobserved in 50% of the heavily impacted states.
 
-Here is a snapshot of the ***Tableau dashboard:*** 
+Here is a snapshot of the ***Tableau dashboard for the date range 1996-2025:*** 
 
 ![Image alt](https://github.com/tebogo-m/zillow-usa-project/blob/main/images/dashboard_screenshots/final_dashboard_for_uploading_06_2025.png)
 
@@ -53,7 +53,7 @@ Here is a snapshot of the ***Tableau dashboard:***
 - Despite concluding within 1-2 years, the 2007-2009 housing market crash led to continued declines in typical U.S. home values for 1-bedroom homes until 2012.
 - Home value recovery, initiated post-2012, was significantly accelerated by market conditions following the COVID-19 pandemic.
 
-***Top 10 Significantly Impacted States***
+***Top 10 Significantly Impacted States 2007-2012***
 ![Image alt](https://github.com/tebogo-m/zillow-usa-project/blob/main/images/dashboard_screenshots/top_10_declining_states_map_2007_to_2012.png)
 
 - This analysis identified the top 10 U.S. states most affected throughout the decline period of 2007-2012

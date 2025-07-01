@@ -69,7 +69,7 @@ Here is a snapshot of the Tableau dashboard:
 
 ### Further Considerations
 
-Outside of these insights, there are multiple factors that determine home values within a country. Another key factor which has not been explored in this analysis yet could have had a very strong impact on 1-bedroom home value recovery is the boom of Airbnb over the past 2 decades. Although this dataset only takes Covid-19 pandemic as the main catalyst for the recovery observed, other factors should not be discounted. 
+Outside of these insights, there are multiple factors that determine home values within a country. Another key factor, which has not been explored in this analysis yet could have had a very strong impact on 1-bedroom home value recovery, is the boom of Airbnb over the past 2 decades. Although this dataset only takes the Covid-19 pandemic as the main catalyst for the recovery observed, other factors should not be discounted. 
 
 
 

@@ -3,7 +3,7 @@
 ![Image alt](https://github.com/tebogo-m/zillow-usa-project/blob/main/images/diagrams/V5_Achictecture_Diagram.drawio.png)
 
 ### Background and Overview:
-This Exploratory Data Analysis set out to explore ***how home values for 1-bedroom homes in the USA have changed*** over the years spanning ***1996-2024.*** Throughout the analysis process trends emerged, largely linked to major economic events within the USA. This prompted further exploration of the dataset, focused on these major economic events, with an emphasis on the ***housing market crash of 2007-2009.***
+This Exploratory Data Analysis set out to explore ***how home values for 1-bedroom homes in the USA have changed*** over the years spanning ***1996-2024.*** Throughout the analysis process, trends emerged, largely linked to major economic events within the USA. This prompted further exploration of the dataset, focused on these major economic events, with an emphasis on the ***housing market crash of 2007-2009.***
 
 #### Insights are provided in the following areas:
 - ***Home Value Trend Analysis:*** Analysis of the historical home values for 1-bedroom homes in the USA
@@ -76,12 +76,13 @@ Here is a snapshot of the ***Tableau dashboard:***
 - The inflation adjustment pushes back the previously observed nominal home value recovery by 1-2 years. 
 - Taking this trend into account, states that have not yet achieved an inflation-adjusted recovery could potentially recover within the next five years if market conditions continue to remain favourable.
 
-### Concluding Comments
+### Further Considerations
 
 Outside of these insights, there are multiple factors that determine home values within a country. Another key factor, which has not been explored in this analysis yet could have had a very strong impact on 1-bedroom home value recovery, is the boom of Airbnb over the past 2 decades. Although this dataset only takes the Covid-19 pandemic as the main catalyst for the recovery observed, other factors should not be discounted. 
 
 
-
+### Conclusion
+This project conducted an Exploratory Data Analysis of USA 1-bedroom home values from 1996-2024, focusing on the 2007-2009 housing market crash and COVID-19 pandemic impact. An ELT pipeline was built on Snowflake with a Medallion Architecture (Bronze, Silver, Gold layers) using dbt for data transformation. Findings revealed significant value declines, especially in specific states, with nominal recovery accelerated by COVID-19 but inflation-adjusted recovery still unobserved in 50% of the most impacted areas. This project highlights the persistent long-term effects of economic events on housing markets.
 
 
 

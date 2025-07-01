@@ -33,4 +33,44 @@ Here is a snapshot of the Tableau dashboard:
 
 ![Image alt](https://github.com/tebogo-m/zillow-usa-project/blob/main/images/dashboard_screenshots/final_dashboard_for_uploading_06_2025.png)
 
+### Insights Deep Dive
+
+
+***Home Value Trends:***
+
+![Image alt](https://github.com/tebogo-m/zillow-usa-project/blob/main/images/dashboard_screenshots/usa_typical_home_values_for_1_bedroom_homes_1996_to_2025_final_image.png)
+
+- The visualisation highlights two significant periods: the 2007-2009 housing market crash and the 2020 COVID-19 pandemic, both marked by lasting economic after-effects.
+- Despite concluding within 1-2 years, the 2007-2009 housing market crash led to continued declines in typical U.S. home values for 1-bedroom homes until 2012.
+- Home value recovery, initiated post-2012, was significantly accelerated by market conditions following the COVID-19 pandemic.
+
+***Top 10 Significantly Impacted States***
+![Image alt](https://github.com/tebogo-m/zillow-usa-project/blob/main/images/dashboard_screenshots/top_10_declining_states_map_2007_to_2012.png)
+
+- Analysis identified the top 10 U.S. states most affected throughout the decline period of 2007-2012
+- Nevada experienced the most significant drop, with 1-bedroom home values plummeting by 70%, while other major economic hubs like Florida (-55%) and California (-43%) also saw substantial declines.
+- Notably, no states from the central, largely rural, parts of the USA were among the top 10 states with the greatest home value losses during this period.
+
+***Nominal Home Value Recovery***
+![image alt](https://github.com/tebogo-m/zillow-usa-project/blob/main/images/dashboard_screenshots/total_years_to_recover_nominal_value.png)
+
+- This analysis determined the recovery timelines for the top 10 most impacted states, using 2006 typical 1-bedroom home values as the benchmark home value to define "recovery."
+- All ten states have nominally recovered their 2006 home values, with the first recovery occurring in Washington (2016) and the last in Nevada (2022).
+- Notably, only four of the 10 states recovered their home values before the COVID-19 pandemic, while the majority recovered during or after it.
+
+***Inflation-Adjusted Home Value Recovery***
+![Image alt](https://github.com/tebogo-m/zillow-usa-project/blob/main/images/dashboard_screenshots/total_years_to%20recover_cpi_adjusted_06_2025_new.png)
+
+- To accurately assess recovery, the CPI index was applied, determining a "true recovery year" when home values regained their 2006 purchasing power.
+- This inflation-adjusted analysis shows only 5 of the 10 most impacted states have truly recovered, meaning 50% remain in recovery.
+- Of the inflation-adjusted recoveries no recoveries occurred earlier than 10 years after the start of the housing market crash in 2007.
+- The inflation adjustment pushes back the previously observed nominal home value recovery by 1-2 years. 
+- Taking this trend into account, states that have not yet achieved an inflation-adjusted recovery could potentially recover within the next five years if market conditions continue to remain favourable. 
+
+
+
+
+
+
+
 

@@ -56,7 +56,7 @@ Here is a snapshot of the ***Tableau dashboard:***
 ***Top 10 Significantly Impacted States***
 ![Image alt](https://github.com/tebogo-m/zillow-usa-project/blob/main/images/dashboard_screenshots/top_10_declining_states_map_2007_to_2012.png)
 
-- Analysis identified the top 10 U.S. states most affected throughout the decline period of 2007-2012
+- This analysis identified the top 10 U.S. states most affected throughout the decline period of 2007-2012
 - Nevada experienced the most significant drop, with 1-bedroom home values plummeting by 70%, while other major economic hubs like Florida (-55%) and California (-43%) also saw substantial declines.
 - Notably, no states from the central, largely rural, parts of the USA were among the top 10 states with the greatest home value losses during this period.
 
@@ -70,7 +70,7 @@ Here is a snapshot of the ***Tableau dashboard:***
 ***Inflation-Adjusted Home Value Recovery***
 ![Image alt](https://github.com/tebogo-m/zillow-usa-project/blob/main/images/dashboard_screenshots/total_years_to%20recover_cpi_adjusted_06_2025_new.png)
 
-- To accurately assess recovery, the CPI index was applied, determining a "true recovery year" when home values regained their 2006 purchasing power.
+- To accurately assess recovery, the Consumer Price Index (a measure of inflation) was applied, determining a "true recovery year" when home values regained their 2006 purchasing power.
 - This inflation-adjusted analysis shows only 5 of the 10 most impacted states have truly recovered, meaning 50% remain in recovery.
 - Of the inflation-adjusted recoveries no recoveries occurred earlier than 10 years after the start of the housing market crash in 2007.
 - The inflation adjustment pushes back the previously observed nominal home value recovery by 1-2 years. 

@@ -19,3 +19,6 @@ data/
 gold_zillow_home_values_all_states_cpi_finrecovery_1br.sql
 gold_zillow_home_values_all_states_fincrisis_1br.sql
 gold_zillow_home_values_all_states_finrecovery_1br.sql
+silver_zillow_regions_cities.sql
+silver_zillow_regions_counties.sql
+silver_zillow_regions_zip_codes.sql

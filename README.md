@@ -83,7 +83,7 @@ Outside of these insights, there are multiple factors that determine home values
 
 
 ### Conclusion
-This project conducted an Exploratory Data Analysis of USA 1-bedroom home values from 1996-2025, focusing on the 2007-2009 housing market crash and COVID-19 pandemic impact. An ELT pipeline was built in Snowflake with a Medallion Architecture (Bronze, Silver, Gold layers) using dbt for data transformation. Findings revealed significant value declines, especially in specific states, with nominal recovery accelerated by COVID-19 but inflation-adjusted recovery still unobserved in 50% of the most impacted areas. This project highlights the persistent long-term effects of economic events on housing markets.
+This analysis reveals how the 2007-2009 housing market crash and COVID-19 reshaped U.S. home values, with half of impacted states still below pre-crash inflation-adjusted levels. By building an ELT pipeline in Snowflake and transforming 159M+ records using dbt, I uncovered persistent disparities, like Nevada’s 70% decline, that could inform real estate investment strategies. While nominal recoveries spiked post-2020, true inflation-adjusted recovery remains incomplete, suggesting long-term risks for homeowners in certain markets. This analysis could potentially be further enriched with rental data.
 
 
 

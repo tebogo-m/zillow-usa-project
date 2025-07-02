@@ -11,6 +11,8 @@ This Exploratory Data Analysis set out to explore ***how home values for 1-bedro
 - ***Nominal Home Value Recovery:*** Analysis of how many of the aforementioned 10 states have since recovered their nominal home value for 1-bedroom homes
 - ***Inflation-Adjusted Home Value Recovery:*** Analysis of how many of the aforementioned 10 States have since recovered their real (inflation-adjusted)  home value for 1-bedroom homes
 
+ **Note**: This project analyses the Zillow Home Value Index (ZHVI) for 1-bedroom homes (Z1BR). ZHVI represents the typical home value which is a seasonally adjusted, weighted average of the middle tier of the market (35th–65th percentile). It is distinct from median or mean values, as it excludes extreme highs/lows to reflect mainstream pricing trends.
+
 ### Technical Overview
 - Built an ELT data pipeline within a Medallion Architecture-aligned data lakehouse on Snowflake.
 - Extracted/Downloaded Zillow Real Estate CSV files from Nasdaq Data Link

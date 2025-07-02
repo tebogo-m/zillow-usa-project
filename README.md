@@ -1,6 +1,6 @@
 # USA Home Valuations Exploratory Data Analysis
 ## ELT & Data Lakehousing with Snowflake & dbt
-![Image alt](https://github.com/tebogo-m/zillow-usa-project/blob/main/images/diagrams/V5_Achictecture_Diagram.drawio.png)
+![Image alt](https://github.com/tebogo-m/zillow-usa-project/blob/main/images/diagrams/Updated_Achictecture_Diagram.drawio.png)
 
 ### Background and Overview:
 This Exploratory Data Analysis set out to explore ***how home values for 1-bedroom homes in the USA have changed*** over the years spanning ***1996-2025.*** Throughout the analysis process, trends emerged, largely linked to major economic events within the USA. This prompted further exploration of the dataset, focused on these major economic events, with an emphasis on the ***housing market crash of 2007-2009.***
@@ -18,7 +18,7 @@ This Exploratory Data Analysis set out to explore ***how home values for 1-bedro
 - Extracted/Downloaded Zillow Real Estate CSV files from Nasdaq Data Link
 - Converted large CSV file into parquet format for smoother  and faster upload into Lakehouse
 - Loaded raw data files into Snowflake staging tables
-- Transformed the data using **dbt models (written in [SQL](https://github.com/tebogo-m/zillow-usa-project/blob/main/zillow_pipeline/models/gold/gold_zillow_home_values_states_cpi_finrecovery_1br.sql) & [Python](https://github.com/tebogo-m/zillow-usa-project/blob/main/zillow_pipeline/models/gold/gold_zillow_home_values_states_allbr_py.py)** as follows:
+- Transformed the data using **dbt models (written in [SQL](https://github.com/tebogo-m/zillow-usa-project/blob/main/zillow_pipeline/models/gold/gold_zillow_home_values_states_cpi_finrecovery_1br.sql) & [Python](https://github.com/tebogo-m/zillow-usa-project/blob/main/zillow_pipeline/models/gold/gold_zillow_home_values_states_allbr_py.py))** as follows:
   - [Bronze Layer](https://github.com/tebogo-m/zillow-usa-project/tree/main/zillow_pipeline/models/bronze): Created a 1:1 representation of raw data from Snowflake staging tables.
   - [Silver Layer](https://github.com/tebogo-m/zillow-usa-project/tree/main/zillow_pipeline/models/silver): Performed cleaning and filtering to enhance data quality.
   - [Gold Layer](https://github.com/tebogo-m/zillow-usa-project/tree/main/zillow_pipeline/models/gold): Curated and aggregated data for optimal performance and analytical readiness.

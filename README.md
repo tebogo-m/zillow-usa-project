@@ -40,7 +40,7 @@ Below is the resultant ***dbt lineage*** which outlines the ***data models*** cr
 
 While the housing market crash primarily occurred between 2007 and 2009, its long-term effects persist, evident almost two decades later. Some of the most severely impacted U.S. states experienced dramatic declines, with typical 1-bedroom home values plummeting by up to 70% between 2007 and 2012. Interestingly, the COVID-19 pandemic significantly accelerated the nominal value recovery for these homes across the USA. However, a complete inflation-adjusted recovery for home values remains unobserved in 50% of the heavily impacted states.
 
-Here is a snapshot of the ***Tableau dashboard for the date range 1996-2025:*** 
+Here is a snapshot of the ***Tableau dashboard:*** 
 
 ![Image alt](https://github.com/tebogo-m/zillow-usa-project/blob/main/images/dashboard_screenshots/final_dashboard_for_uploading_06_2025.png)
 

@@ -3,7 +3,7 @@
 ![Image alt](https://github.com/tebogo-m/zillow-usa-project/blob/main/images/diagrams/Updated_Achictecture_Diagram.drawio.png)
 
 ### Background and Overview:
-This Exploratory Data Analysis set out to explore ***how home values for 1-bedroom homes in the USA have changed*** over the years spanning ***1996-2025.*** Throughout the analysis process, trends emerged, largely linked to major economic events within the USA. This prompted further exploration of the dataset, focused on these major economic events, with an emphasis on the ***housing market crash of 2007-2009.***
+This Exploratory Data Analysis set out to explore ***how home values for 1-bedroom homes in the USA have changed*** over the years spanning ***January 1996-March 2025.*** Throughout the analysis process, trends emerged, largely linked to major economic events within the USA. This prompted further exploration of the dataset, focused on these major economic events, with an emphasis on the ***housing market crash of 2007-2009.***
 
 #### Insights are provided in the following areas:
 - ***Home Value Trend Analysis:*** Analysis of the historical home values for 1-bedroom homes in the USA

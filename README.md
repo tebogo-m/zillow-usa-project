@@ -67,7 +67,7 @@ Here is a snapshot of the ***Tableau dashboard:***
 
 - This analysis determined the recovery timelines for the top 10 most impacted states, using 2006 typical 1-bedroom home values as the benchmark home value to define "recovery."
 - All ten states have nominally recovered their 2006 home values, with the first recovery occurring in Washington (2016) and the last in Nevada (2022).
-- Notably, only four of the 10 states recovered their home values before the COVID-19 pandemic, while the majority recovered during or after it.
+- Notably, only five of the 10 states recovered their home values before the COVID-19 pandemic, while the majority recovered during or after it.
 
 ***Inflation-Adjusted Home Value Recovery***
 ![Image alt](https://github.com/tebogo-m/zillow-usa-project/blob/main/images/dashboard_screenshots/total_years_to%20recover_cpi_adjusted_06_2025_new.png)

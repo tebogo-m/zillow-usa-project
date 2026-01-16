@@ -31,15 +31,14 @@ Leveraging the architecture above, this Exploratory Data Analysis (EDA) set out 
 ### Data Structure Overview
 The ***database structure*** for this project consists of 3 tables:  zillow_home_values, zillow_regions and zillow_indicators with a ***total row count of 159,008,830 (159M) records***.
 
-zillow_home_values dataset being copied from the snowflake stage to the snowflake staging table showing the row count
+***zillow_home_values*** dataset copied from the snowflake stage to the snowflake staging table showing the row count
 <img width="1600" height="179" alt="image" src="https://github.com/user-attachments/assets/bc4a428e-fe09-46da-a5d2-a716fd1e3d20" />
 
-zillow_indicators dataset being copied from the snowflake stage to the snowflake staging table showing the row count
-<img width="1600" height="223" alt="image" src="https://github.com/user-attachments/assets/96f2c514-9e6a-4d7d-96e4-7fba556e0db7" />
+***zillow_indicators*** dataset copied from the snowflake stage to the snowflake staging table showing the row count
+<img width="1600" height="187" alt="image" src="https://github.com/user-attachments/assets/a657fef8-5780-4caa-888a-64a7ff87ac0d" />
 
-zillow_regions dataset being copied from the snowflake stage to the snowflake staging table showing the row count
+***zillow_regions*** dataset copied from the snowflake stage to the snowflake staging table showing the row count
 <img width="1600" height="209" alt="image" src="https://github.com/user-attachments/assets/37f219e6-bff9-41b8-8edf-f5d23884353b" />
-
 
 
 Below is the ***ER (Entity Relationship Diagram)*** for the dataset used throughout the project:

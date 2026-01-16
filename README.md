@@ -1,19 +1,13 @@
-# USA Home Valuations Exploratory Data Analysis
-## ELT & Data Lakehousing with Snowflake & dbt
+# ELT & Data Lakehousing with Snowflake & dbt
+## USA Home Valuations Exploratory Data Analysis
 ![Image alt](https://github.com/tebogo-m/zillow-usa-project/blob/main/images/diagrams/Updated_Achictecture_Diagram.drawio.png)
 
-### Background and Overview:
-This Exploratory Data Analysis set out to explore ***how home values for 1-bedroom homes in the USA have changed*** over the years spanning ***January 1996-March 2025.*** Throughout the analysis process, trends emerged, largely linked to major economic events within the USA. This prompted further exploration of the dataset, focused on these major economic events, with an emphasis on the ***housing market crash of 2007-2009.***
+### Project Overview
+Leveraging Snowflake, dbt, and Tableau, I developed an end-to-end data solution that captures and cleans nearly 30 years of housing data to analyse recovery trends following the 2008 financial crisis.
 
-#### Insights are provided in the following areas:
-- ***Home Value Trend Analysis:*** Analysis of the historical home values for 1-bedroom homes in the USA
-- ***Top 10 significantly impacted states:*** Analysis of the 10 states that saw the highest decline in home values across 1-bedroom homes due to the housing market crash
-- ***Nominal Home Value Recovery:*** Analysis of how many of the aforementioned 10 states have since recovered their nominal home value for 1-bedroom homes
-- ***Inflation-Adjusted Home Value Recovery:*** Analysis of how many of the aforementioned 10 States have since recovered their real (inflation-adjusted)  home value for 1-bedroom homes
-
- **Note**: This project analyses the Zillow Home Value Index (ZHVI) for 1-bedroom homes (Z1BR). ZHVI represents the typical home value which is a seasonally adjusted, weighted average of the middle tier of the market (35th–65th percentile). It is distinct from median or mean values, as it excludes extreme highs/lows to reflect mainstream pricing trends.
-
-### Technical Overview
+### Technical Architecture & Methodology
+Before conducting the analysis, a dedicated ELT data pipeline was engineered within a Medallion Architecture on Snowflake to ensure data integrity and analytical readiness.
+The following steps were taken during this process:
 - Built an ELT data pipeline within a Medallion Architecture-aligned data lakehouse on Snowflake.
 - Extracted/Downloaded Zillow Real Estate CSV files from Nasdaq Data Link
 - Loaded raw data files into Snowflake staging tables
@@ -23,9 +17,30 @@ This Exploratory Data Analysis set out to explore ***how home values for 1-bedro
   - [Gold Layer](https://github.com/tebogo-m/zillow-usa-project/tree/main/zillow_pipeline/models/gold): Curated and aggregated data for optimal performance and analytical readiness.
 - Connected final Gold-layer data in Snowflake to **Tableau for visualization**
 
+### Analysis Background & Insights
+Leveraging the architecture above, this Exploratory Data Analysis (EDA) set out to explore ***how home values for 1-bedroom homes in the USA have changed*** over the years spanning ***January 1996-March 2025.*** Throughout the analysis process, trends emerged, largely linked to major economic events within the USA. This prompted further exploration of the dataset, focused on these major economic events, with an emphasis on the ***housing market crash of 2007-2009.***
+
+#### Insights are provided in the following areas:
+- ***Home Value Trend Analysis:*** Analysis of the historical home values for 1-bedroom homes in the USA
+- ***Top 10 significantly impacted states:*** Analysis of the 10 states that saw the highest decline in home values across 1-bedroom homes due to the housing market crash
+- ***Nominal Home Value Recovery:*** Analysis of how many of the aforementioned 10 states have since recovered their nominal home value for 1-bedroom homes
+- ***Inflation-Adjusted Home Value Recovery:*** Analysis of how many of the aforementioned 10 States have since recovered their real (inflation-adjusted)  home value for 1-bedroom homes
+
+ **Note**: This project analyses the Zillow Home Value Index (ZHVI) for 1-bedroom homes (Z1BR). ZHVI represents the typical home value which is a seasonally adjusted, weighted average of the middle tier of the market (35th–65th percentile). It is distinct from median or mean values, as it excludes extreme highs/lows to reflect mainstream pricing trends.
 
 ### Data Structure Overview
 The ***database structure*** for this project consists of 3 tables:  zillow_home_values, zillow_regions and zillow_indicators with a ***total row count of 159,008,830 (159M) records***.
+
+zillow_home_values dataset being copied from the snowflake stage to the snowflake staging table showing the row count
+<img width="1600" height="179" alt="image" src="https://github.com/user-attachments/assets/bc4a428e-fe09-46da-a5d2-a716fd1e3d20" />
+
+zillow_indicators dataset being copied from the snowflake stage to the snowflake staging table showing the row count
+<img width="1600" height="223" alt="image" src="https://github.com/user-attachments/assets/96f2c514-9e6a-4d7d-96e4-7fba556e0db7" />
+
+zillow_regions dataset being copied from the snowflake stage to the snowflake staging table showing the row count
+<img width="1600" height="209" alt="image" src="https://github.com/user-attachments/assets/37f219e6-bff9-41b8-8edf-f5d23884353b" />
+
+
 
 Below is the ***ER (Entity Relationship Diagram)*** for the dataset used throughout the project:
 ![Image alt](https://github.com/tebogo-m/zillow-usa-project/blob/main/images/diagrams/ER_diagram.png)
